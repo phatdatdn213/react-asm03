@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  text-align: left;
+}
+
+.left {
+  margin-right: 30px;
+  width: 25%;
+  height: auto;
+}
+.left h4 {
+  background-color: rgb(163, 170, 168);
+  font-weight: 700;
+  padding: 20px;
+}
+.left p {
+  padding-left: 20px;
+}
+
+.right {
+  width: 75%;
+  padding-top: 50px;
+}
+.rightCol {
+  /* flex-grow: 3; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+.rightCol div {
+  width: 33%;
+  height: auto;
+}
+.rightCol img {
+  width: 100%;
+  height: auto;
+}
+
+.box {
+  word-wrap: break-word;
+  text-align: center;
+  animation: zoom-out 1s ease;
+}
+
+@keyframes zoom-out {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}

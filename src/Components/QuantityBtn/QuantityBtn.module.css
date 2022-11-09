@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.wrapper {
+  height: auto;
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.wrapper span {
+  width: 100%;
+  text-align: center;
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+.wrapper span.num {
+  border-right: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  pointer-events: none;
+  font-size: x-large;
+}
